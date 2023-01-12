@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1024px;
+    margin: 9% auto;   
+}
+#header{
+    position: relative; /* Esta servindo de referancia para o POSITION:ABSOLUTE da linha 27 */
+    background-color: #041027;
+    width: 1024px;
+}
+section{
+    text-align: center;
+}
+/*=-=-=- MENU =-=-=-*/
+.fashion{
+    margin-left: 16%;
+}
+.menu{
+    /*border: solid 3px yellow;*/
+    margin: 0; /* Aqui eu estou zerando para que a UL não interfina na configuração da LI  */
+    padding: 0; /* Aqui eu estou zerando para que a UL não interfina na configuração da LI  */
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.menu li a{
+    color:#91a4c9;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu li a:hover{
+    color:#ffffff;
+}
+/*=-=-=- INFOPAGE =-=-=-*/
+.Infopage{
+    padding: 13px;
+}
+.titleInfopage{
+    margin: 40px 0px;
+}
+.Infopage p{
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 45px;
+}
+/*=-=-=- CARDS =-=-=-*/
+#cards{
+    /*border: solid 3px black;*/
+    float: left;
+    margin-left: 99.98px;
+}
+.card{
+    /*border: solid 2px red;*/
+    display: inline-block;
+    margin: 0 15px 45px;
+}
+.titleCard{
+    text-transform: uppercase;
+    color: #2b303a;
+}
+.textCard{
+    color: rgb(90, 86, 86);
+}
+/*=-=-=- ABOUT =-=-=-*/
+#about{
+    clear: both;
+    background-color: #003d52;
+    padding: 100px; /* Esse padding esta aqui para complementar o tamanho da img */
+    background-image: url(../img/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;      
+}
+.about{
+    text-align: left;
+    color: snow;
+}
+.about h1{
+    text-transform: uppercase;
+    font-size: 37px;
+}
+.about p{
+    line-height: 1.5;
+    width: 81%;
+}
+
+/*=-=-=- CONTACT =-=-=-*/
+
+.contact{
+    color: #003d52;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+/*=-=-=- FOOTER =-=-=-*/
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    color:#91a4c9 ;
+    background-color: #041027;
+}
